@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39664" started-at="2022-10-21T10:13:41 IST" finished-at="2022-10-21T10:14:21 IST">
+  <suite name="Suite" duration-ms="183493" started-at="2022-10-21T11:21:55 IST" finished-at="2022-10-21T11:24:58 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39664" started-at="2022-10-21T10:13:41 IST" finished-at="2022-10-21T10:14:21 IST">
+    <test name="Test" duration-ms="183493" started-at="2022-10-21T11:21:55 IST" finished-at="2022-10-21T11:24:58 IST">
       <class name="scripts.Testcase3">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:scripts.Testcase3@2d8f65a4]" name="openApp" is-config="true" duration-ms="9245" started-at="2022-10-21T10:13:41 IST" finished-at="2022-10-21T10:13:50 IST">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:scripts.Testcase3@646d64ab]" name="openApp" is-config="true" duration-ms="16146" started-at="2022-10-21T11:21:55 IST" finished-at="2022-10-21T11:22:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="Tc3()[pri:0, instance:scripts.Testcase3@2d8f65a4]" name="Tc3" duration-ms="29279" started-at="2022-10-21T10:13:50 IST" finished-at="2022-10-21T10:14:20 IST">
+        <test-method status="PASS" signature="Tc3()[pri:0, instance:scripts.Testcase3@646d64ab]" name="Tc3" duration-ms="21978" started-at="2022-10-21T11:22:11 IST" finished-at="2022-10-21T11:22:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tc3 -->
-        <test-method status="PASS" signature="CloseApp()[pri:0, instance:scripts.Testcase3@2d8f65a4]" name="CloseApp" is-config="true" duration-ms="1090" started-at="2022-10-21T10:14:20 IST" finished-at="2022-10-21T10:14:21 IST">
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:scripts.Testcase3@646d64ab]" name="CloseApp" is-config="true" duration-ms="1243" started-at="2022-10-21T11:22:33 IST" finished-at="2022-10-21T11:22:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
       </class> <!-- scripts.Testcase3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="scripts.Testcase2">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:scripts.Testcase2@2353b3e6]" name="openApp" is-config="true" duration-ms="7848" started-at="2022-10-21T11:22:34 IST" finished-at="2022-10-21T11:22:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="Tc2()[pri:0, instance:scripts.Testcase2@2353b3e6]" name="Tc2" duration-ms="100543" started-at="2022-10-21T11:22:42 IST" finished-at="2022-10-21T11:24:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc2 -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:scripts.Testcase2@2353b3e6]" name="CloseApp" is-config="true" duration-ms="1780" started-at="2022-10-21T11:24:23 IST" finished-at="2022-10-21T11:24:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- scripts.Testcase2 -->
+      <class name="scripts.Testcase1">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:scripts.Testcase1@631330c]" name="openApp" is-config="true" duration-ms="9335" started-at="2022-10-21T11:24:24 IST" finished-at="2022-10-21T11:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="Tc1()[pri:0, instance:scripts.Testcase1@631330c]" name="Tc1" duration-ms="23247" started-at="2022-10-21T11:24:34 IST" finished-at="2022-10-21T11:24:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc1 -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:scripts.Testcase1@631330c]" name="CloseApp" is-config="true" duration-ms="1173" started-at="2022-10-21T11:24:57 IST" finished-at="2022-10-21T11:24:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- scripts.Testcase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
